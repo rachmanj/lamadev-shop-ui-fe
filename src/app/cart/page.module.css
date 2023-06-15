@@ -1,0 +1,157 @@
+.container {
+  /*  */
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.title {
+  font-weight: 300;
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.topButton {
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.topInfo {
+  display: flex;
+  align-items: center;
+}
+
+.topText {
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomInfo {
+  flex: 3;
+}
+
+.bottomSummary {
+  flex: 1;
+  border: 0.5px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  height: 50vh;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productDetail {
+  flex: 2;
+  display: flex;
+}
+
+.productImage {
+  width: 200px;
+}
+
+.details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.productName {
+  font-weight: 300;
+}
+
+.productId {
+  font-weight: 300;
+}
+
+.productColor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.productSize {
+  font-weight: 300;
+}
+
+.priceDetail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.productAmountContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.productAmount {
+  font-size: 24px;
+  margin: 5px;
+  border: 1px solid teal;
+  padding: 5px;
+}
+
+.productPrice {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.hr {
+  background-color: #eee;
+  border: none;
+  height: 1px;
+}
+
+.summaryTitle {
+  font-weight: 200;
+}
+
+.summaryItem {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.summaryText {
+  /*  */
+}
+
+.summaryItemText {
+  font-weight: 300;
+}
+
+.summaryItemPrice {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}

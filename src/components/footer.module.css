@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.logo {
+  /*  */
+}
+
+.desc {
+  margin: 20px 0px;
+}
+
+.socialContainer {
+  display: flex;
+}
+
+.socialIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.center {
+  flex: 1;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listItem {
+  width: 50%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.right {
+  flex: 1;
+}
+
+.contactItem {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
